@@ -132,6 +132,10 @@ img {
 .hero-section {
     padding: 188px 0;  
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .hero-title {
