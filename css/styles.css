@@ -78,7 +78,6 @@ img {
 }
 
 
-
 .header-logo .accent {
     color: #2E2F42;
 }
@@ -94,6 +93,19 @@ img {
     display: block;
     padding: 24px 0;
 }
+
+.header-menu::after {
+    content: "";
+    width: 48px;
+    height: 4px;
+    top: px;
+    background-color: green;
+}
+
+.header-menu:hover::after {
+    background-color: #404BBF;
+}
+
 
 .header-link:hover {
     color: #404BBF;
@@ -251,6 +263,32 @@ img {
 
 /*  third-start */
 
+.soc-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.soc-icons-ground {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-icons-ground:hover {
+    background: #404BBF;
+}
+
+.footer-soc-icons:focus {
+    background: #404BBF;
+}
 
 .third-section {
     background-color: #F4F4FD;
@@ -277,7 +315,7 @@ img {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team {
@@ -300,6 +338,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 8px;
 }
 
 /*  third-end */
@@ -365,7 +404,7 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 17.5px;
 }
 
 .footer-logo .accent {
@@ -377,6 +416,43 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.social-media-text {
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 16px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 120px;
+}
+
+.footer-soc-icons {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-icons:hover {
+    background: #31D0AA;
+
+
+}
+
+.footer-soc-icons:focus {
+    background: #31D0AA;
+
 }
 
 /*  footer-end  */
