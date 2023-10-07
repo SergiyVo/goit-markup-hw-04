@@ -404,9 +404,7 @@ img {
     position: absolute;
     top: 0;
     height: 100%;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 40px 32px;
     color:  #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
