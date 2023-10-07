@@ -417,7 +417,15 @@ img {
 footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-first-container {
+    margin-right: 120px;
 }
 
 .footer-logo {
