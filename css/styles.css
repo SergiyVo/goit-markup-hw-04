@@ -459,8 +459,12 @@ footer {
     margin-bottom: 16px;
 }
 
-.footer-list {
+/*.footer-list {
     display: flex;
+    gap: 120px;
+}*/
+
+.footer-first-container {
     gap: 120px;
 }
 
