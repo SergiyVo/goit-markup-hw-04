@@ -103,7 +103,7 @@ img {
     color: #404bbf;
 }
 
-.header-link-accent::after {
+/* .header-link-accent::after {
     content: "";
     position: absolute;
     left: 0;
@@ -111,12 +111,20 @@ img {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-}
+    width: 100%;
+}*/
 
-.header-menu:hover::after {
+.header-link:hover::after {
     background-color: #404BBF;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    width: 100%;
 }
-
 
 .header-link:hover {
     color: #404BBF;
