@@ -40,7 +40,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 3px solid red;
+    /*   outline: 3px solid red; */
 }
 
 
@@ -78,6 +78,10 @@ img {
     gap: 40px;
 }
 
+.header-menu-text {
+    position: relative;
+    color: #404bbf;
+}
 
 .header-logo .accent {
     color: #2E2F42;
@@ -95,14 +99,15 @@ img {
     padding: 24px 0;
 }
 
-.header-menu::after {
-    width: auto;
+.header-link::after {
     content: "";
     position: absolute;
-    max-width: 4px;
+    left: 0;
     bottom: -1px;
-    transition: all;
-    background-color: green;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu:hover::after {
@@ -136,6 +141,7 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover {
