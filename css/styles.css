@@ -76,12 +76,11 @@ img {
 .header-menu {
     display: flex;
     gap: 40px;
-}
-
-.header-menu-text {
     position: relative;
     color: #404bbf;
 }
+
+.header-menu-text {}
 
 .header-logo .accent {
     color: #2E2F42;
