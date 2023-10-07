@@ -278,7 +278,7 @@ img {
 .soc-icons-ground {
     width: 40px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 50%;
     background: #4D5AE5;
     display: flex;
     align-items: center;
@@ -288,12 +288,16 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-icons-ground:hover {
-    background: #404BBF;
+.icons-color {
+    fill: #f4f4fd
 }
 
-.footer-soc-icons:focus {
-    background: #404BBF;
+.soc-icons-ground:hover {
+    background-color: #404BBF;
+}
+
+.soc-icons-ground:focus {
+    background-color: #404BBF;
 }
 
 .third-section {
@@ -326,7 +330,6 @@ img {
 
 .team {
     padding: 32px 0;
-
 }
 
 .third-title-team {
