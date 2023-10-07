@@ -48,6 +48,7 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -95,10 +96,12 @@ img {
 }
 
 .header-menu::after {
+    width: auto;
     content: "";
-    width: 48px;
-    height: 4px;
-    top: px;
+    position: absolute;
+    max-width: 4px;
+    bottom: -1px;
+    transition: all;
     background-color: green;
 }
 
@@ -152,9 +155,11 @@ img {
     padding: 188px 0;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-img.jpg);
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
-
+    background-size: cover;
+    margin: 0 auto;
 }
 
 .hero-title {
